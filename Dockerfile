@@ -1,4 +1,4 @@
-FROM k8s.gcr.io/hyperkube:v1.13.0
+FROM k8s.gcr.io/hyperkube:v1.14.0
 
 RUN apt-get update && \
  apt-get install -y ceph-fs-common && \
